@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\LoginController;
+use App\Http\Controllers\RegisterController;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,32 +15,36 @@ use App\Http\Controllers\LoginController;
 |
 */
 
+// route halaman produk
 Route::get('/', function () {
-    return view ('home', [
-        "title" => "Home",
-        "active" => "home"
+    return view('produk', [
+        "title" => "Produk"
     ]);
 });
 
-Route::get('/about', function () {
-    return view ('about', [
-        "title" => "About",
-        "active" => "about",
+// route halaman katalog
+Route::get('/admin', function () {
+    return view('katalog', [
+        "title" => "Katalog"
     ]);
 });
 
-Route::get('/posts', function () {
-    return view ('posts', [
-        "title" => "Blog",
-        "active" => "posts",
+// route halaman category
+Route::get('/category', function () {
+    return view('category', [
+        "title" => "Category"
     ]);
 });
 
-Route::get('/categories', function () {
-    return view ('categories', [
-        "title" => "Category",
-        "active" => "categories",
+// route halaman detail
+Route::get('/detail', function () {
+    return view('detail', [
+        "title" => "Detail"
     ]);
 });
 
+// route halaman login
 Route::get('/login', [LoginController::class, 'index']);
+
+// route halaman registrasi
+Route::get('/register', [RegisterController::class, 'index']);
