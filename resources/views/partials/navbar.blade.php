@@ -7,13 +7,13 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link {{ ($active === "about") ? 'active' : '' }}" href="/about">About</a>
+          <a class="nav-link {{ ($active === "about") ? 'active' : '' }}" href="/about">New Product</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link {{ ($active === "posts") ? 'active' : '' }}" href="/posts">Blog</a>
+          <a class="nav-link {{ ($active === "posts") ? 'active' : '' }}" href="/posts">Catalogue</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link {{ ($active === "categories") ? 'active' : '' }}" href="/categories">Categories</a>
+          <a class="nav-link {{ ($active === "categories") ? 'active' : '' }}" href="/categories">Category</a>
         </li>
       </ul>
 
