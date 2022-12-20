@@ -1,14 +1,15 @@
 <?php
 
-use App\Http\Controllers\CategoryController;
-use App\Http\Controllers\DetailController;
-use App\Http\Controllers\HomeController;
-use App\Http\Controllers\KatalogController;
-use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\LoginController;
-use App\Http\Controllers\ProdukController;
-use App\Http\Controllers\RegisterController;
 use App\Models\Produk;
+use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\HomeController;
+use App\Http\Controllers\LoginController;
+use App\Http\Controllers\DetailController;
+use App\Http\Controllers\KontakController;
+use App\Http\Controllers\ProdukController;
+use App\Http\Controllers\KatalogController;
+use App\Http\Controllers\CategoryController;
+use App\Http\Controllers\RegisterController;
 
 /*
 |--------------------------------------------------------------------------
@@ -31,6 +32,8 @@ Route::get('/catalog', [KatalogController::class, 'index']);
 // route halaman category
 Route::get('/category', [CategoryController::class, 'index']);
 
+//route halaman kontak kami
+Route::get('/kontak', [KontakController::class, 'index']);
 
 // route halaman detail
 Route::get('/detail', [DetailController::class, 'index']);
