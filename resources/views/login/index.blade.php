@@ -11,7 +11,7 @@
 
             <div class="">
 
-              <h2 class="fw-bold mb-2 text-uppercase">Login</h2>
+              <h2 class="fw-bold mb-2 text-uppercase">Login Admin</h2>
               <p class="text-white-50 mb-5">Please enter your login and password!</p>
 
               <div class="form-outline form-white mb-4">
