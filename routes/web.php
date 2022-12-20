@@ -1,8 +1,14 @@
 <?php
 
+use App\Http\Controllers\CategoryController;
+use App\Http\Controllers\DetailController;
+use App\Http\Controllers\HomeController;
+use App\Http\Controllers\KatalogController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\LoginController;
+use App\Http\Controllers\ProdukController;
 use App\Http\Controllers\RegisterController;
+use App\Models\Produk;
 
 /*
 |--------------------------------------------------------------------------
@@ -16,32 +22,18 @@ use App\Http\Controllers\RegisterController;
 */
 
 // route halaman produk
-Route::get('/', function () {
-    return view('produk', [
-        "title" => "Produk"
-    ]);
-});
+Route::resource('/', HomeController::class);
+Route::get('/produk', [ProdukController::class, 'index']);
 
 // route halaman katalog
-Route::get('/admin', function () {
-    return view('katalog', [
-        "title" => "Katalog"
-    ]);
-});
+Route::get('/catalog', [KatalogController::class, 'index']);
 
 // route halaman category
-Route::get('/category', function () {
-    return view('category', [
-        "title" => "Category"
-    ]);
-});
+Route::get('/category', [CategoryController::class, 'index']);
+
 
 // route halaman detail
-Route::get('/detail', function () {
-    return view('detail', [
-        "title" => "Detail"
-    ]);
-});
+Route::get('/detail', [DetailController::class, 'index']);
 
 // route halaman login
 Route::get('/login', [LoginController::class, 'index']);
