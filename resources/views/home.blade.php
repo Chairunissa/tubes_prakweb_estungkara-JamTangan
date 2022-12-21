@@ -6,7 +6,7 @@
         <div class="col-8 my-2">
             <div class="icon-tangan">
                 <span></span>
-                <span class="p-2" style="border: 1px solid rgb(119, 119, 202)">Welcome to De Orologio</span>
+                <marquee class="p-2" style="border: 0px solid"><h3>Welcome to De Orologio</h3></marquee>
             </div>
             <div class="title-hero mt-4" style="font-size: 64px">
                 <strong>The perfect moment</strong>
