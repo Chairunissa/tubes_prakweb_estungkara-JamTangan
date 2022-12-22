@@ -3,13 +3,17 @@
 use App\Models\Produk;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\CasioController;
 use App\Http\Controllers\LoginController;
+use App\Http\Controllers\RolexController;
+use App\Http\Controllers\ChanelController;
 use App\Http\Controllers\DetailController;
 use App\Http\Controllers\KontakController;
 use App\Http\Controllers\ProdukController;
 use App\Http\Controllers\KatalogController;
-use App\Http\Controllers\CategoryController;
 use App\Http\Controllers\RegisterController;
+use App\Http\Controllers\CategoryMaleController;
+use App\Http\Controllers\CategoryFemaleController;
 
 /*
 |--------------------------------------------------------------------------
@@ -29,8 +33,20 @@ Route::get('/produk', [ProdukController::class, 'index']);
 // route halaman katalog
 Route::get('/catalog', [KatalogController::class, 'index']);
 
-// route halaman category
-Route::get('/category', [CategoryController::class, 'index']);
+// route halaman katalog Casio
+Route::get('/casio', [CasioController::class, 'index']);
+
+// route halaman katalog Rolex
+Route::get('/rolex', [RolexController::class, 'index']);
+
+// route halaman katalog Chanel
+Route::get('/chanel', [ChanelController::class, 'index']);
+
+// route halaman category Male
+Route::get('/categorymale', [CategoryMaleController::class, 'index']);
+
+// route halaman category Female
+Route::get('/categoryfemale', [CategoryFemaleController::class, 'index']);
 
 //route halaman kontak kami
 Route::get('/kontak', [KontakController::class, 'index']);

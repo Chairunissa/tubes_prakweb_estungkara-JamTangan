@@ -14,9 +14,9 @@
                         Catalog
                     </a>
                     <ul class="dropdown-menu dropdown-menu-light text-center">
-                      <li><a class="dropdown-item" href="#">Casio</a></li>
-                      <li><a class="dropdown-item" href="#">Rolex</a></li>
-                      <li><a class="dropdown-item" href="#">Chanel</a></li>
+                        <li><a class="dropdown-item" href="/casio">Casio</a></li>
+                        <li><a class="dropdown-item" href="/chanel">Chanel</a></li>
+                        <li><a class="dropdown-item" href="/rolex">Rolex</a></li>
                     </ul>
                 </li>
                 <li class="nav-item dropdown">
@@ -24,8 +24,8 @@
                         Category
                     </a>
                     <ul class="dropdown-menu dropdown-menu-light text-center">
-                      <li><a class="dropdown-item" href="#"><i class="bi bi-gender-male"></i> Male</a></li>
-                      <li><a class="dropdown-item" href="#"><i class="bi bi-gender-female"></i> Female</a></li>
+                        <li><a class="dropdown-item" href="/categorymale"><i class="bi bi-gender-male"></i> Male</a></li>
+                        <li><a class="dropdown-item" href="/categoryfemale"><i class="bi bi-gender-female"></i> Female</a></li>
                     </ul>
                 </li>
                 <li class="nav-item">
@@ -35,7 +35,7 @@
             <form class="d-flex" role="search">
                 <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                 <button class="btn btn-outline-light me-1" type="submit"><i class="bi bi-search"></i></button>
-              </form>
+            </form>
 
             {{-- Login --}}
             <ul class="navbar-nav">
