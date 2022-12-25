@@ -13,22 +13,6 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
 
     {{-- My Style --}}
-    <link rel="stylesheet" type="text/css" href="/css/style.css">
-
-    <!--=============== LOGO ===============-->
-    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
-
-    <!--=============== REMIX ICONS ===============-->
-    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
-
-    {{-- Home CSS --}}
-    <link rel="stylesheet" type="text/css" href="{{ asset('style/home.css') }}">
-
-    {{-- Navbar CSS --}}
-    <link rel="stylesheet" type="text/css" href="{{ asset('style/navbar.css') }}">
-
-
-    <title> De Orologio {{ $title }}</title>
 </head>
 
 <body>
