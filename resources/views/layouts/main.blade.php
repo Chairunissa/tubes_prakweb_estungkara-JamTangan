@@ -13,9 +13,13 @@
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
 
-     {{-- My Style --}}
+    {{-- My Style --}}
      <link rel="stylesheet" href="/css/style.css">
 
+    {{-- List Produk --}}
+      <link rel="stylesheet" type="text/css" href="{{asset('style/listproduk.css') }}">
+
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
     <title>{{ $title }}</title>
 </head>
 
