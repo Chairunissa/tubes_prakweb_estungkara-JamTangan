@@ -1,49 +1,35 @@
-<nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #DC6640;">
-    <div class="container">
-        <a class="navbar-brand" href="/">De Orologio</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="/produk">New Product</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="/katalog" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Catalog
-                    </a>
-                    <ul class="dropdown-menu dropdown-menu-light text-center">
-                        <li><a class="dropdown-item" href="/casio">Casio</a></li>
-                        <li><a class="dropdown-item" href="/chanel">Chanel</a></li>
-                        <li><a class="dropdown-item" href="/rolex">Rolex</a></li>
-                    </ul>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="/category" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Category
-                    </a>
-                    <ul class="dropdown-menu dropdown-menu-light text-center">
-                        <li><a class="dropdown-item" href="/categorymale"><i class="bi bi-gender-male"></i> Male</a></li>
-                        <li><a class="dropdown-item" href="/categoryfemale"><i class="bi bi-gender-female"></i> Female</a></li>
-                    </ul>
-                </li>
-                <li class="nav-item">
-                    <a href="/kontak" class="nav-link">Contact Us</a>
-                </li>
-            </ul>
-            <form class="d-flex" role="search">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-light me-1" type="submit"><i class="bi bi-search"></i></button>
-            </form>
+<header class="header" id="header">
+    <nav class="nav container">
+        <a href="#" class="nav__logo">
+            <img src="img/logo.png" alt="">
+        </a>
 
-            {{-- Login --}}
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a href="/login" class="nav-link"><i class="bi bi-person-circle"></i> Login Admin</a>
+        <div class="nav__menu" id="nav-menu">
+            <ul class="nav__list">
+                <li class="nav__item">
+                    <a href="/produk" class="nav__link ">New Product</a>
+                </li>
+                <li class="nav__item">
+                    <a href="/catalog" class="nav__link">Catalog</a>
+                </li>
+                <li class="nav__item">
+                    <a href="/category" class="nav__link">Category</a>
+                </li>
+                <li class="nav__item">
+                    <a href="/kontak" class="nav__link">Contact Us</a>
+                </li>
+                <li class="nav__item">
+                    <a href="/login" class="nav__link active-link">Login Admin</a>
                 </li>
             </ul>
 
+            <div class="nav__close" id="nav-close">
+                <i class="ri-close-line"></i>
+            </div>
         </div>
-    </div>
-</nav>
+
+        <div class="nav__toggle" id="nav-toggle">
+            <i class="ri-function-line"></i>
+        </div>
+    </nav>
+</header>
