@@ -1,6 +1,6 @@
 <header class="header" id="header">
     <nav class="nav container">
-        <a href="/" class="nav__logo">
+        <a href="#" class="nav__logo">
             <img src="img/logo.png" alt="">
         </a>
 
@@ -10,10 +10,10 @@
                     <a href="/produk" class="nav__link ">New Product</a>
                 </li>
                 <li class="nav__item">
-                    <a href="" class="nav__link">Catalog</a>
+                    <a href="/catalog" class="nav__link">Catalog</a>
                 </li>
                 <li class="nav__item">
-                    <a href="" class="nav__link">Category</a>
+                    <a href="/category" class="nav__link">Category</a>
                 </li>
                 <li class="nav__item">
                     <a href="/kontak" class="nav__link">Contact Us</a>
