@@ -1,25 +1,25 @@
 <header class="header" id="header">
     <nav class="nav container">
-        <a href="#" class="nav__logo">
+        <a href="/" class="nav__logo pt-0">
             <img src="img/logo.png" alt="">
         </a>
 
         <div class="nav__menu" id="nav-menu">
             <ul class="nav__list">
                 <li class="nav__item">
-                    <a href="/produk" class="nav__link ">New Product</a>
+                    <a href="/produk" class="nav__link" style="color: darkgrey;">New Products</a>
                 </li>
                 <li class="nav__item">
-                    <a href="/catalog" class="nav__link">Catalog</a>
+                    <a href="/catalog" class="nav__link" style="color: darkgrey;";>Catalog</a>
                 </li>
                 <li class="nav__item">
-                    <a href="/category" class="nav__link">Category</a>
+                    <a href="/category" class="nav__link" style="color: darkgrey;">Category</a>
                 </li>
                 <li class="nav__item">
-                    <a href="/kontak" class="nav__link">Contact Us</a>
+                    <a href="/kontak" class="nav__link" style="color: darkgrey;">Contact Us</a>
                 </li>
                 <li class="nav__item">
-                    <a href="/login" class="nav__link active-link">Login Admin</a>
+                    <a href="/login" class="nav__link active-link" style="color: darkgrey;"><i class="bi bi-person-circle"></i> Login Admin</a>
                 </li>
             </ul>
 
