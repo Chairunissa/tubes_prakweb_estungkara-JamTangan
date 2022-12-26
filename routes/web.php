@@ -56,6 +56,20 @@ Route::get('/detail', [DetailController::class, 'index']);
 
 // route halaman login
 Route::get('/login', [LoginController::class, 'index']);
+Route::post('/login', [LoginController::class, 'authenticate']);
 
 // route halaman registrasi
 Route::get('/register', [RegisterController::class, 'index']);
+Route::post('/register', [RegisterController::class, 'store']);
+
+// route halaman admin
+Route::get('/Admin', [AdminController::class, 'index']);
+
+// dashboard
+Route::get('/dashboard', function () {
+    return view('dashboard.index');
+})->middleware('auth');
+Route::resource('/dashboard/posts', DashboardPostController::class)->middleware('auth');
+
+Route::get('/logout', [LoginController::class, 'logout']);
+Route::post('/logout', [LoginController::class, 'logout']);
