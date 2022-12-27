@@ -105,9 +105,9 @@
         <h5>M. Rafi Ramadhan</h5>
         <h5>203040051</h5>
         <div class="icons">
-          <a href="#"><i class="ri-twitter-fill"></i></a>
+          <a href="https://twitter.com/rafiramadhannnn"><i class="ri-twitter-fill"></i></a>
           <a href="#"><i class="ri-facebook-box-fill"></i></a>
-          <a href="#"><i class="ri-instagram-fill"></i></a>
+          <a href="https://www.instagram.com/rafi.ramadhann/"><i class="ri-instagram-fill"></i></a>
         </div>
       </div>
 

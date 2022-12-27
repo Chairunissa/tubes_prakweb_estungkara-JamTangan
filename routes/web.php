@@ -12,6 +12,7 @@ use App\Http\Controllers\KontakController;
 use App\Http\Controllers\ProdukController;
 use App\Http\Controllers\KatalogController;
 use App\Http\Controllers\RegisterController;
+use App\Http\Controllers\CategoryController;
 use App\Http\Controllers\CategoryMaleController;
 use App\Http\Controllers\CategoryFemaleController;
 
@@ -41,6 +42,9 @@ Route::get('/rolex', [RolexController::class, 'index']);
 
 // route halaman katalog Chanel
 Route::get('/chanel', [ChanelController::class, 'index']);
+
+// route halaman category
+Route::get('/category', [CategoryController::class, 'index']);
 
 // route halaman category Male
 Route::get('/categorymale', [CategoryMaleController::class, 'index']);
