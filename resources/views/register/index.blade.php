@@ -36,7 +36,7 @@
                                     <div class="form-button mt-4">
                                         <button id="submit" type="submit" class="btn btn-primary">Register</button>
                                     </div>
-                                    <small class="d-block text-center mt-3">Already registered? <a href="/login">Login</a></small>
+                                    <small class="d-block text-center mt-3">Already registered? <a href="/login" style="color: white;">Login</a></small>
 
                                 </form>
                             </form>

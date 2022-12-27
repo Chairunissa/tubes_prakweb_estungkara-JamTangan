@@ -41,7 +41,7 @@
                 <div class="form-button mt-4">
                   <button type="submit" class="btn btn-primary">Login</button>
                 </div>
-                <small class="d-block text-center mt-3">Not Registered?<a href="/register"> Register Now!</a></small>
+                <small class="d-block text-center mt-3">Not Registered?<a href="/register" style="color: white;"> Register Now!</a></small>
               </form>
 
             </div>
