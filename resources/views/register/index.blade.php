@@ -11,56 +11,48 @@
                             <h3 class="registration text-center">Register</h3>
                             <p class="fill-data text-center">Fill in the data below.</p>
                             <form class="requires-validation" novalidate>
-
-                                <div class="col-md-12">
-                                   <input class="form-control" type="text" name="name" placeholder="Full Name" required>
-                                   <div class="valid-feedback">Username field is valid!</div>
-                                   <div class="invalid-feedback">Username field cannot be blank!</div>
-                                </div>
-
-                                <div class="col-md-12">
-                                    <input class="form-control" type="email" name="email" placeholder="E-mail Address" required>
-                                     <div class="valid-feedback">Email field is valid!</div>
-                                     <div class="invalid-feedback">Email field cannot be blank!</div>
-                                </div>
-
-                               <div class="col-md-12">
-                                  <input class="form-control" type="password" name="password" placeholder="Password" required>
-                                   <div class="valid-feedback">Password field is valid!</div>
-                                   <div class="invalid-feedback">Password field cannot be blank!</div>
-                               </div>
-
-                               <div class="col-md-12">
-                                <input class="form-control" type="password" name="password" placeholder="Repeat Password" required>
-                                 <div class="valid-feedback">Password field is valid!</div>
-                                 <div class="invalid-feedback">Password field cannot be blank!</div>
-                               </div>
-
-                               <div class="col-md-12 mt-3">
-                                <label class="mb-3 mr-1" for="gender">Gender: </label>
-
-                                <input type="radio" class="btn-check" name="gender" id="male" autocomplete="off" required>
-                                <label class="btn btn-sm btn-outline-secondary" for="male">Male</label>
-
-                                <input type="radio" class="btn-check" name="gender" id="female" autocomplete="off" required>
-                                <label class="btn btn-sm btn-outline-secondary" for="female">Female</label>
-
-                                <input type="radio" class="btn-check" name="gender" id="secret" autocomplete="off" required>
-                                <label class="btn btn-sm btn-outline-secondary" for="secret">Secret</label>
-                                   <div class="valid-feedback mv-up">You selected a gender!</div>
-                                    <div class="invalid-feedback mv-up">Please select a gender!</div>
-                                </div>
-
-                            <div class="form-check">
-                              <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
-                              <label class="form-check-label">I confirm that all data are correct</label>
-                             <div class="invalid-feedback">Please confirm that the entered data are all correct!</div>
-                            </div>
+                                <form action="/register" method="post">
+                                    @csrf
+                                    <div class="col-md-12">
+                                        <input class="form-control @error('name') is-invalid @enderror" id="name" type="text" name="name" placeholder="Name" required value="{{ old('name') }}">
+                                        <div class="valid-feedback">Username field is valid!</div>
+                                        @error('name')
+                                        <div class="invalid-feedback">{{ $message }}</div>
+                                        @enderror
+                                    </div>
 
 
-                                <div class="form-button mt-4">
-                                    <button id="submit" type="submit" class="btn btn-primary">Register</button>
-                                </div>
+                                    <div class="col-md-12">
+                                        <input class="form-control @error('email') is-invalid @enderror" id="email" type="email" name="email" placeholder="E-mail Address" required value="{{ old('email') }}">
+                                        <div class="valid-feedback">Email field is valid!</div>
+                                        @error('email')
+                                        <div class="invalid-feedback">{{ $message }}</div>
+                                        @enderror
+
+                                    </div>
+
+                                    <div class="col-md-12">
+                                        <input class="form-control @error('password') is-invalid @enderror" id="password" type="password" name="password" placeholder="Password" required>
+                                        <div class="valid-feedback">Password field is valid!</div>
+                                        @error('password')
+                                        <div class="invalid-feedback">{{ $message }}</div>
+                                        @enderror
+                                    </div>
+
+                                    <div class="col-md-12">
+                                        <input class="form-control @error('password') is-invalid @enderror" id="password" type="password" name="password" placeholder="Repeat Password" required>
+                                        <div class="valid-feedback">Password field is valid!</div>
+                                        @error('password')
+                                        <div class="invalid-feedback">{{ $message }}</div>
+                                        @enderror
+                                    </div>
+
+
+                                    <div class="form-button mt-4">
+                                        <button id="submit" type="submit" class="btn btn-primary">Register</button>
+                                    </div>
+                                    <small class="d-block text-center mt-3">Already registered? <a href="/login">Login</a></small>
+                                </form>
                             </form>
                         </div>
                     </div>
