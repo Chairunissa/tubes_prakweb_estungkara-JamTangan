@@ -1,55 +1,73 @@
 @extends('layouts.main')
 
 @section('container')
+<section class="section-products">
+    <div class="container">
+        <div class="form-body">
+            <div class="row">
+                <div class="form-holder">
+                    <div class="form-content">
+                        <div class="form-items">
+                            <h3 class="registration text-center">Register</h3>
+                            <p class="fill-data text-center">Fill in the data below.</p>
+                            <form class="requires-validation" novalidate>
 
-<section class="vh-100 gradient-custom">
-  <div class="container py-5 h-100">
-    <div class="row d-flex justify-content-center align-items-center h-100">
-      <div class="col-12 col-md-8 col-lg-6 col-xl-5">
-        <div class="card  text-white" style="border-radius: 1rem;background-color: #DC6640;">
-          <div class="card-body p-5 text-center">
+                                <div class="col-md-12">
+                                   <input class="form-control" type="text" name="name" placeholder="Full Name" required>
+                                   <div class="valid-feedback">Username field is valid!</div>
+                                   <div class="invalid-feedback">Username field cannot be blank!</div>
+                                </div>
 
-            <div class="">
+                                <div class="col-md-12">
+                                    <input class="form-control" type="email" name="email" placeholder="E-mail Address" required>
+                                     <div class="valid-feedback">Email field is valid!</div>
+                                     <div class="invalid-feedback">Email field cannot be blank!</div>
+                                </div>
 
-              <h2 class="fw-bold mb-5 text-uppercase">Sign-Up</h2>
+                               <div class="col-md-12">
+                                  <input class="form-control" type="password" name="password" placeholder="Password" required>
+                                   <div class="valid-feedback">Password field is valid!</div>
+                                   <div class="invalid-feedback">Password field cannot be blank!</div>
+                               </div>
 
-              <div class="form-outline form-white mb-4">
-                <input type="text" id="typeTextX" class="form-control form-control-lg" />
-                <label class="form-label" for="typeTextX">Name</label>
-              </div>
+                               <div class="col-md-12">
+                                <input class="form-control" type="password" name="password" placeholder="Repeat Password" required>
+                                 <div class="valid-feedback">Password field is valid!</div>
+                                 <div class="invalid-feedback">Password field cannot be blank!</div>
+                               </div>
 
-              <div class="form-outline form-white mb-4">
-                <input type="email" id="typeEmailX" class="form-control form-control-lg" />
-                <label class="form-label" for="typeEmailX">Email</label>
-              </div>
+                               <div class="col-md-12 mt-3">
+                                <label class="mb-3 mr-1" for="gender">Gender: </label>
 
-              <div class="form-outline form-white mb-4">
-                <input type="password" id="typePasswordX" class="form-control form-control-lg" />
-                <label class="form-label" for="typePasswordX">Password</label>
-              </div>
+                                <input type="radio" class="btn-check" name="gender" id="male" autocomplete="off" required>
+                                <label class="btn btn-sm btn-outline-secondary" for="male">Male</label>
 
-              <div class="form-outline form-white mb-4">
-                <input type="password" id="typePasswordX" class="form-control form-control-lg" />
-                <label class="form-label" for="typePasswordX">Repeat Password</label>
-              </div>
+                                <input type="radio" class="btn-check" name="gender" id="female" autocomplete="off" required>
+                                <label class="btn btn-sm btn-outline-secondary" for="female">Female</label>
 
-              <button class="btn btn-outline-light btn-lg px-5" type="submit">Register</button>
+                                <input type="radio" class="btn-check" name="gender" id="secret" autocomplete="off" required>
+                                <label class="btn btn-sm btn-outline-secondary" for="secret">Secret</label>
+                                   <div class="valid-feedback mv-up">You selected a gender!</div>
+                                    <div class="invalid-feedback mv-up">Please select a gender!</div>
+                                </div>
 
-              <div>
-                <p class="mt-3">Already have an account? <a href="/login" class="text-white-100 fw-bold">Login</a>
-                </p>
-              </div>
+                            <div class="form-check">
+                              <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                              <label class="form-check-label">I confirm that all data are correct</label>
+                             <div class="invalid-feedback">Please confirm that the entered data are all correct!</div>
+                            </div>
 
-              <p>Copyright &copy; 2022. All Right Reserved.</p>
 
+                                <div class="form-button mt-4">
+                                    <button id="submit" type="submit" class="btn btn-primary">Register</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
             </div>
-
-          </div>
         </div>
-      </div>
+
     </div>
-  </div>
 </section>
-
-
 @endsection

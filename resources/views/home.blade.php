@@ -18,13 +18,12 @@
 
                     <div class="home__footer">
                         <h3 class="home__title-description">Overview</h3>
-                        <p class="home__description">Enjoy award-winning Beats sound with wireless listening freedom and
-                            a sleek,
-                            streamlined design with comfortable padded earphones, delivering first-rate playback.
+                        <p class="home__description">Explore the collection and find the watch that suits you. Selected from the best
+                            brands and assembled with attractive designs, superior products, and contemporary styles.
                         </p>
-                        <a href="#" class="button button--flex">
+                        <a href="/produk" class="button button--flex">
                             <span class="button--flex">
-                                <i class="ri-shopping-bag-line button__icon"></i></i> New Product
+                                <i class="ri-shopping-bag-line button__icon"></i></i> New Products
                             </span>
                         </a>
                     </div>
@@ -165,7 +164,7 @@
                 <div class="discount__animate">
                     <h2 class="discount__title">Let's look <br> at what's in the catalog</h2>
                     <p class="discount__description">Get it now.</p>
-                    <a href="#" class="button button--flex">
+                    <a href="/catalog" class="button button--flex">
                         <i class="ri-shopping-bag-line button__icon"></i> Look Catalog
                     </a>
                 </div>

@@ -24,6 +24,9 @@
     <!-- {{-- Home CSS --}} -->
     <link rel="stylesheet" type="text/css" href="{{ asset('style/home.css') }}">
 
+    <!-- {{-- Register CSS --}} -->
+    <link rel="stylesheet" type="text/css" href="{{ asset('style/register.css') }}">
+
     <!-- {{-- Navbar CSS --}} -->
     <link rel="stylesheet" type="text/css" href="{{ asset('style/navbar.css') }}">
 
