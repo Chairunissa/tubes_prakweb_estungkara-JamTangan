@@ -100,6 +100,18 @@
       </div>
 
       <div class="box">
+        <img src="img/rafi.png">
+        <h3>Front End</h3>
+        <h5>M. Rafi Ramadhan</h5>
+        <h5>203040051</h5>
+        <div class="icons">
+          <a href="#"><i class="ri-twitter-fill"></i></a>
+          <a href="#"><i class="ri-facebook-box-fill"></i></a>
+          <a href="#"><i class="ri-instagram-fill"></i></a>
+        </div>
+      </div>
+
+      <div class="box">
         <img src="img/nizar.png">
         <h3>Back End</h3>
         <h5>M. Nizar Albaehaqi</h5>
@@ -111,17 +123,7 @@
         </div>
       </div>
 
-      <div class="box">
-        <img src="img/rafi.png">
-        <h3>Front End</h3>
-        <h5>M. Rafi Ramadhan</h5>
-        <h5>203040051</h5>
-        <div class="icons">
-          <a href="#"><i class="ri-twitter-fill"></i></a>
-          <a href="#"><i class="ri-facebook-box-fill"></i></a>
-          <a href="#"><i class="ri-instagram-fill"></i></a>
-        </div>
-      </div>
+
 
     </div>
   </section>
