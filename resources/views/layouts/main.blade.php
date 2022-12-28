@@ -11,6 +11,7 @@
 
     <!-- {{-- Bootstrap Icons --}} -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
     <!-- {{-- My Style --}} -->
     <link rel="stylesheet" type="text/css" href="/css/style.css">
@@ -24,8 +25,14 @@
     <!-- {{-- Home CSS --}} -->
     <link rel="stylesheet" type="text/css" href="{{ asset('style/home.css') }}">
 
+    <!-- {{-- Register CSS --}} -->
+    <link rel="stylesheet" type="text/css" href="{{ asset('style/register.css') }}">
+
     <!-- {{-- Navbar CSS --}} -->
     <link rel="stylesheet" type="text/css" href="{{ asset('style/navbar.css') }}">
+
+    <!-- {{-- Category CSS --}} -->
+    <link rel="stylesheet" type="text/css" href="{{ asset('style/category.css') }}">
 
 
     <title> De Orologio {{ $title }}</title>
@@ -36,6 +43,10 @@
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
     <title>{{ $title }}</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+
 </head>
 
 <body>

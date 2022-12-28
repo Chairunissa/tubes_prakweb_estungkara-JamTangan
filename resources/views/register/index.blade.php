@@ -1,58 +1,51 @@
 @extends('layouts.main')
 
 @section('container')
+<section class="section-products">
+    <div class="container">
+        <div class="form-body">
+            <div class="row">
+                <div class="form-holder">
+                    <div class="form-content">
+                        <div class="form-items">
+                            <form action="/register" method="post">
+                                <h3 class="registration text-center">Register</h3>
+                                <p class="fill-data text-center">Fill in the data below.</p>
+                                <form class="requires-validation" novalidate>
 
-<section class="vh-100 gradient-custom">
-  <div class="container py-5 h-100">
-    <div class="row d-flex justify-content-center align-items-center h-100">
-      <div class="col-12 col-md-8 col-lg-6 col-xl-5">
-        <div class="card  text-white" style="border-radius: 1rem;background-color: #DC6640;">
-          <div class="card-body p-5 text-center">
+                                    @csrf
+                                    <div class="col-md-12">
+                                        <input class="form-control" id="name" type="name" name="name" placeholder="Name" required>
+                                    </div>
 
-            <form action="/register" method="post">
-              @csrf
-              <div class="">
 
-                <h2 class="fw-bold mb-5 text-uppercase">Sign-Up</h2>
-  
-                <div class="form-outline form-white mb-4">
-                  <input type="name" id="name" name="name" class="form-control form-control-lg" />
-                  <label class="form-label" for="name">Name</label>
-                </div>
-  
-                <div class="form-outline form-white mb-4">
-                  <input type="email" id="email" name="email" class="form-control form-control-lg" />
-                  <label class="form-label" for="email">Email</label>
-                </div>
-  
-                <div class="form-outline form-white mb-4">
-                  <input type="password" id="password" name="password" class="form-control form-control-lg" />
-                  <label class="form-label" for="password">Password</label>
-                </div>
-  
-                <div class="form-outline form-white mb-4">
-                  <input type="password" id="password" name="password" class="form-control form-control-lg" />
-                  <label class="form-label" for="password">Repeat Password</label>
-                </div>
-  
-                <button class="btn btn-outline-light btn-lg px-5" type="submit">Register</button>
-  
-                <div>
-                  <p class="mt-3">Already have an account? <a href="/login" class="text-white-100 fw-bold">Login</a>
-                  </p>
-                </div>
-  
-                <p>Copyright &copy; 2022. All Right Reserved.</p>
-  
-              </div>
-            </form>
+                                    <div class="col-md-12">
+                                        <input class="form-control" id="email" type="email" name="email" placeholder="E-mail Address" required>
 
-          </div>
+                                    </div>
+
+                                    <div class="col-md-12">
+                                        <input class="form-control" id="password" type="password" name="password" placeholder="Password" required>
+                                    </div>
+
+                                    <div class="col-md-12">
+                                        <input class="form-control" id="password" type="password" name="password" placeholder="Repeat Password" required>
+                                    </div>
+
+
+                                    <div class="form-button mt-4">
+                                        <button id="submit" type="submit" class="btn btn-primary">Register</button>
+                                    </div>
+                                    <small class="d-block text-center mt-3">Already registered? <a href="/login" style="color: white;">Login</a></small>
+
+                                </form>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
+
     </div>
-  </div>
 </section>
-
-
 @endsection
