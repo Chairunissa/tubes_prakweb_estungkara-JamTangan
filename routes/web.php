@@ -3,6 +3,7 @@
 use App\Models\Produk;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\AdminController;
 use App\Http\Controllers\CasioController;
 use App\Http\Controllers\LoginController;
 use App\Http\Controllers\RolexController;
@@ -14,6 +15,7 @@ use App\Http\Controllers\KatalogController;
 use App\Http\Controllers\RegisterController;
 use App\Http\Controllers\CategoryController;
 use App\Http\Controllers\CategoryMaleController;
+use App\Http\Controllers\DashboardPostController;
 use App\Http\Controllers\CategoryFemaleController;
 
 /*
@@ -73,7 +75,10 @@ Route::get('/Admin', [AdminController::class, 'index']);
 Route::get('/dashboard', function () {
     return view('dashboard.index');
 })->middleware('auth');
+
 Route::resource('/dashboard/posts', DashboardPostController::class)->middleware('auth');
+
+Route::get('/dashboard/posts/checkSlug', [DashboardPostController::class, 'checkSlug'])->middleware('auth');
 
 Route::get('/logout', [LoginController::class, 'logout']);
 Route::post('/logout', [LoginController::class, 'logout']);
