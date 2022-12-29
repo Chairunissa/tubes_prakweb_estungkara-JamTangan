@@ -17,7 +17,7 @@ class HomeController extends Controller
     {
 
         return view('home', [
-            'title' => 'estungkara',
+            'title' => 'De Orologio',
             'active' => 'home',
         ]);
     }

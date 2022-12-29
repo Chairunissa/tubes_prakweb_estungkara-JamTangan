@@ -18,7 +18,7 @@
                     <h4 class="products-men text-center" style="font-weight: 400;">Products for Men</h4><hr>
                     <p class="card-text" style="padding:5px;">We present superior products for men, see the products for more details.</p>
                         <a href="/categorymale">
-                        <button type="button" class="btn btn-outline-dark" style="margin-top:15px; margin-bottom: 20px;">See Products</button>
+                        <button type="button" class="btn btn-outline-dark" style="margin-top:15px; margin-bottom: 20px;">View Products</button>
                         </a>
                     </div>
                     </div>
@@ -38,7 +38,7 @@
                     <h4 class="products-women text-center" style="font-weight: 400;">products for Women</h4><hr>
                     <p class="card-text" style="padding:5px;">We present superior products for women, see the products for more details.</p>
                         <a href="/categoryfemale">
-                        <button type="button" class="btn btn-outline-dark" style="margin-top:15px; margin-bottom: 20px;">See Products</button>
+                        <button type="button" class="btn btn-outline-dark" style="margin-top:15px; margin-bottom: 20px;">View Products</button>
                         </a>
                     </div>
                     </div>
