@@ -7,7 +7,6 @@
         {{-- <div class="row justify-content-center text-center">
             <div class="col-md-8 col-lg-6">
                 <div class="header" style="margin-top: 100px;">
-
                 </div>
             </div>
         </div> --}}
