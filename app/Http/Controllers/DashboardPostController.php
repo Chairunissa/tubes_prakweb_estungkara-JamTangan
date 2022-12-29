@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\catalog;
 use App\Models\produk;
 use App\Models\category;
 use Illuminate\Http\Request;
@@ -31,7 +32,8 @@ class DashboardPostController extends Controller
     public function create()
     {
         return view('dashboard.posts.create', [
-            'categories' => category::all()
+            'categories' => category::all(),
+            'catalogs' => catalog::all()
         ]);
     }
 
@@ -45,7 +47,8 @@ class DashboardPostController extends Controller
     {
         $validateData = $request->validate([
             'title' => 'required|max:255',
-            'slug' => 'required|unique:posts',
+            'slug' => 'required|unique:produks',
+            'catalog_id' => 'required',
             'category_id' => 'required',
             'image' => 'image|file|max:1024',
             'body' => 'required'
@@ -86,7 +89,8 @@ class DashboardPostController extends Controller
     {
         return view('dashboard.posts.edit', [
             'post' => $produk,
-            'categories' => category::all()
+            'categories' => category::all(),
+            'catalogs' => catalog::all()
         ]);
     }
 
@@ -102,12 +106,13 @@ class DashboardPostController extends Controller
         $rules = [
             'title' => 'required|max:255',
             'category_id' => 'required',
+            'catalog_id' => 'required',
             'image' => 'image|file|max:1024',
             'body' => 'required'
         ];
 
         if ($request->slug != $produk->slug) {
-            $rules['slug'] = 'required|unique:posts';
+            $rules['slug'] = 'required|unique:produks';
         }
 
         $validateData = $request->validate($rules);

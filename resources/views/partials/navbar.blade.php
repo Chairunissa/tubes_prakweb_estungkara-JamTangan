@@ -10,7 +10,7 @@
                     <a href="/produk" class="nav__link" style="color: darkgrey;">New Products</a>
                 </li>
                 <li class="nav__item">
-                    <a href="/catalog" class="nav__link" style="color: darkgrey;";>Catalog</a>
+                    <a href="/catalog" class="nav__link" style="color: darkgrey;" ;>Catalog</a>
                 </li>
                 <li class="nav__item">
                     <a href="/category" class="nav__link" style="color: darkgrey;">Category</a>
