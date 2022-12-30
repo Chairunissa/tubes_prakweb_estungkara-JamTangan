@@ -162,7 +162,7 @@ section .container .contactForm .formBox .inputBox.w100 {
   resize: none;
   font-size: 18px;
   font-weight: 300;
-  color: #FFD76D;
+  color: #777;
   border: none;
   border-bottom: 1px solid #777;
   outline: none;
@@ -196,7 +196,7 @@ section .container .contactForm .formBox .inputBox.w100 {
 .inputBox input[type="submit"] {
   position: relative;
   cursor: pointer;
-  background: #FFD76D;
+  background: #6d88ff;
   color: #fff;
   border: none;
   max-width: 150px;
@@ -206,7 +206,9 @@ section .container .contactForm .formBox .inputBox.w100 {
 }
 
 .inputBox input[type="submit"]:hover {
-  background: #DC6640;
+  background: black;
+  border: 1px solid #fff;
+  border-radius: 20px;
 }
 
 .box {
