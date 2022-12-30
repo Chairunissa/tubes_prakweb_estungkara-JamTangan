@@ -21,8 +21,8 @@
 </head>
 
 <body>
-  <section>
-    <div class="container">
+  <section class="section-products" style="margin-top: 150px">
+    <div class="container p-4">
       <div class="contactinfo">
         <div class="box">
           <h2>Contact Info</h2>
