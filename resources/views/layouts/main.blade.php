@@ -8,6 +8,7 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.rtl.min.css" integrity="sha384-DOXMLfHhQkvFFp+rWTZwVlPVqdIhpDVYT9csOnHSgWQWPX0v5MCGtjCJbY6ERspU" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- {{-- Bootstrap Icons --}} -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
@@ -34,8 +35,11 @@
     <!-- {{-- Category CSS --}} -->
     <link rel="stylesheet" type="text/css" href="{{ asset('style/category.css') }}">
 
+    <!-- {{-- Category CSS --}} -->
+    <link rel="stylesheet" type="text/css" href="{{ asset('style/catalog.css') }}">
 
-    <title> De Orologio {{ $title }}</title>
+
+    <title>{{ $title }}</title>
     <link rel="stylesheet" href="/css/style.css">
 
     <!-- {{-- List Produk --}} -->
