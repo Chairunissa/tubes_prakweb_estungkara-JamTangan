@@ -85,10 +85,11 @@ class DashboardPostController extends Controller
      * @param  \App\Models\produk  $produk
      * @return \Illuminate\Http\Response
      */
-    public function edit(produk $produk)
+    public function edit($id, produk $produk)
     {
+        $prdk = produk::where("slug", $id)->first();
         return view('dashboard.posts.edit', [
-            'post' => $produk,
+            'post' => $prdk,
             'categories' => category::all(),
             'catalogs' => catalog::all()
         ]);
@@ -101,8 +102,9 @@ class DashboardPostController extends Controller
      * @param  \App\Models\produk  $produk
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, produk $produk)
+    public function update($id, Request $request, produk $produk)
     {
+        $prdk = produk::where("slug", $id)->first();
         $rules = [
             'title' => 'required|max:255',
             'category_id' => 'required',
@@ -111,7 +113,7 @@ class DashboardPostController extends Controller
             'body' => 'required'
         ];
 
-        if ($request->slug != $produk->slug) {
+        if ($request->slug != $prdk->slug) {
             $rules['slug'] = 'required|unique:produks';
         }
 
@@ -127,7 +129,7 @@ class DashboardPostController extends Controller
         $validateData['user_id'] = auth()->user()->id;
         $validateData['excerpt'] = Str::limit(strip_tags($request->body), 200);
 
-        produk::where('id', $produk->id)
+        produk::where('id', $prdk->id)
             ->update($validateData);
 
         return redirect('/dashboard/posts')->with('success', 'Post has been updated!');
@@ -139,13 +141,14 @@ class DashboardPostController extends Controller
      * @param  \App\Models\produk  $produk
      * @return \Illuminate\Http\Response
      */
-    public function destroy(produk $produk)
+    public function destroy($id, produk $produk)
     {
-        if ($produk->image) {
-            Storage::delete($produk->image);
+        $prdk = produk::where("slug", $id)->first();
+        if ($prdk->image) {
+            Storage::delete($prdk->image);
         }
 
-        produk::destroy($produk->id);
+        produk::destroy($prdk->id);
 
         return redirect('/dashboard/posts')->with('success', 'Post has been deleted!');
     }

@@ -7,7 +7,7 @@
 
 <div class="col-lg-8">
     <form method="POST" action="/dashboard/posts/{{ $post->slug }}" class="mb-5" enctype="multipart/form-data">
-        @method('put')
+        @method("PUT")
         @csrf
         <div class="mb-3">
             <label for="title" class="form-label">Title</label>
