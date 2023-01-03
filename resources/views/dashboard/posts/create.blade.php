@@ -2,7 +2,7 @@
 
 @section('container')
     <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
-        <h1 class="h2">Create new Post</h1>
+        <h1 class="h2">Produk Baru</h1>
     </div>
 
     <div class="col-lg-8">
@@ -28,6 +28,20 @@
                     </div>
                 @enderror
             </div>
+
+            <div class="mb-3">
+                <label for="catalog" class="form-label">Catalog</label>
+                <select class="form-select" name="catalog_id">
+                    @foreach ($catalogs as $catalog)
+                        @if (old('catalog_id') == $catalog->id)
+                            <option value="{{ $catalog->id }}" selected>{{ $catalog->name }}</option>
+                        @else
+                            <option value="{{ $catalog->id }}">{{ $catalog->name }}</option>
+                        @endif
+                    @endforeach
+                </select>
+            </div>
+
             <div class="mb-3">
                 <label for="category" class="form-label">Category</label>
                 <select class="form-select" name="category_id">
@@ -60,7 +74,7 @@
                 <input id="body" type="hidden" name="body" value="{{ old('body') }}">
                 <trix-editor input="body"></trix-editor>
             </div>
-            <button type="submit" class="btn btn-primary">Create Post</button>
+            <button type="submit" class="btn btn-primary">Tambah Produk</button>
         </form>
     </div>
 

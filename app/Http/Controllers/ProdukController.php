@@ -21,7 +21,7 @@ class ProdukController extends Controller
             $author = User::firstWhere('username', request('author'));
             $title = ' in ' . $author->name;
         }
-        return view('posts', [
+        return view('produk', [
             'title' => 'All Post' . $title,
             'active' => 'post',
             // 'posts' => Post::all(),

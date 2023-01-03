@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\catalog;
 use App\Models\produk;
 use App\Models\category;
 use Illuminate\Http\Request;
@@ -31,7 +32,8 @@ class DashboardPostController extends Controller
     public function create()
     {
         return view('dashboard.posts.create', [
-            'categories' => category::all()
+            'categories' => category::all(),
+            'catalogs' => catalog::all()
         ]);
     }
 
@@ -45,7 +47,8 @@ class DashboardPostController extends Controller
     {
         $validateData = $request->validate([
             'title' => 'required|max:255',
-            'slug' => 'required|unique:posts',
+            'slug' => 'required|unique:produks',
+            'catalog_id' => 'required',
             'category_id' => 'required',
             'image' => 'image|file|max:1024',
             'body' => 'required'
@@ -82,11 +85,13 @@ class DashboardPostController extends Controller
      * @param  \App\Models\produk  $produk
      * @return \Illuminate\Http\Response
      */
-    public function edit(produk $produk)
+    public function edit($id, produk $produk)
     {
+        $prdk = produk::where("slug", $id)->first();
         return view('dashboard.posts.edit', [
-            'post' => $produk,
-            'categories' => category::all()
+            'post' => $prdk,
+            'categories' => category::all(),
+            'catalogs' => catalog::all()
         ]);
     }
 
@@ -97,17 +102,19 @@ class DashboardPostController extends Controller
      * @param  \App\Models\produk  $produk
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, produk $produk)
+    public function update($id, Request $request, produk $produk)
     {
+        $prdk = produk::where("slug", $id)->first();
         $rules = [
             'title' => 'required|max:255',
             'category_id' => 'required',
+            'catalog_id' => 'required',
             'image' => 'image|file|max:1024',
             'body' => 'required'
         ];
 
-        if ($request->slug != $produk->slug) {
-            $rules['slug'] = 'required|unique:posts';
+        if ($request->slug != $prdk->slug) {
+            $rules['slug'] = 'required|unique:produks';
         }
 
         $validateData = $request->validate($rules);
@@ -122,7 +129,7 @@ class DashboardPostController extends Controller
         $validateData['user_id'] = auth()->user()->id;
         $validateData['excerpt'] = Str::limit(strip_tags($request->body), 200);
 
-        produk::where('id', $produk->id)
+        produk::where('id', $prdk->id)
             ->update($validateData);
 
         return redirect('/dashboard/posts')->with('success', 'Post has been updated!');
@@ -134,13 +141,14 @@ class DashboardPostController extends Controller
      * @param  \App\Models\produk  $produk
      * @return \Illuminate\Http\Response
      */
-    public function destroy(produk $produk)
+    public function destroy($id, produk $produk)
     {
-        if ($produk->image) {
-            Storage::delete($produk->image);
+        $prdk = produk::where("slug", $id)->first();
+        if ($prdk->image) {
+            Storage::delete($prdk->image);
         }
 
-        produk::destroy($produk->id);
+        produk::destroy($prdk->id);
 
         return redirect('/dashboard/posts')->with('success', 'Post has been deleted!');
     }

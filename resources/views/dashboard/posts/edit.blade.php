@@ -7,7 +7,7 @@
 
     <div class="col-lg-8">
         <form method="POST" action="/dashboard/posts/{{ $post->slug }}" class="mb-5" enctype="multipart/form-data">
-            @method('put')
+            @method("PUT")
             @csrf
             <div class="mb-3">
                 <label for="title" class="form-label">Title</label>
@@ -29,6 +29,20 @@
                     </div>
                 @enderror
             </div>
+
+            <div class="mb-3">
+                <label for="catalog" class="form-label">Catalog</label>
+                <select class="form-select" name="catalog_id">
+                    @foreach ($catalogs as $catalog)
+                        @if (old('catalog_id') == $catalog->id)
+                            <option value="{{ $catalog->id }}" selected>{{ $catalog->name }}</option>
+                        @else
+                            <option value="{{ $catalog->id }}">{{ $catalog->name }}</option>
+                        @endif
+                    @endforeach
+                </select>
+            </div>
+
             <div class="mb-3">
                 <label for="category" class="form-label">Category</label>
                 <select class="form-select" name="category_id">

@@ -12,7 +12,7 @@ class produk extends Model
 
     // protected $fillable = ['title', 'excerpt', 'body'];
     protected $guarded = ['id'];
-    protected $with = ['author', 'category'];
+    protected $with = ['author', 'category', 'catalog'];
 
     public function scopeFilter($query, array $filters)
     {
@@ -25,6 +25,11 @@ class produk extends Model
                 $query->where('slug', $category);
             });
         });
+        $query->when($filters['catalog'] ?? false, function ($query, $catalog) {
+            return $query->whereHas('catalog', function ($query) use ($catalog) {
+                $query->where('slug', $catalog);
+            });
+        });
         $query->when(
             $filters['author'] ?? false,
             fn ($query, $author) => $query->whereHas('author', fn ($query) => $query->where('username', $author))
@@ -34,6 +39,11 @@ class produk extends Model
     public function category()
     {
         return $this->belongsTo(Category::class);
+    }
+
+    public function catalog()
+    {
+        return $this->belongsTo(catalog::class);
     }
 
     public function author()
