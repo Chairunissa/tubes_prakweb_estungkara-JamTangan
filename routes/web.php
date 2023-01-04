@@ -12,8 +12,9 @@ use App\Http\Controllers\DetailController;
 use App\Http\Controllers\KontakController;
 use App\Http\Controllers\ProdukController;
 use App\Http\Controllers\KatalogController;
-use App\Http\Controllers\RegisterController;
 use App\Http\Controllers\CategoryController;
+use App\Http\Controllers\RegisterController;
+use App\Http\Controllers\GetImagesController;
 use App\Http\Controllers\CategoryMaleController;
 use App\Http\Controllers\DashboardPostController;
 use App\Http\Controllers\CategoryFemaleController;
@@ -82,3 +83,5 @@ Route::get('/dashboard/posts/checkSlug', [DashboardPostController::class, 'check
 
 Route::get('/logout', [LoginController::class, 'logout']);
 Route::post('/logout', [LoginController::class, 'logout']);
+
+Route::get('/storage/post-images/{filename}', [GetImagesController::class, 'displayImage'])->name('image.displayImage');
