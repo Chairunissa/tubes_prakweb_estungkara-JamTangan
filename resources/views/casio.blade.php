@@ -4,7 +4,7 @@
 <section class="section-products" style="margin-top: 50px" >
     <div class="container">
 
-        <h2 class="row justify-content-center text-center mb-4">Casio Products</h2>
+        <h2 class="row justify-content-center text-center mb-4">{{ $title }}</h2>
 
         <!-- Grid row -->
         <div class="row pb-3">
@@ -17,8 +17,7 @@
 
             <!--Card image-->
             <div class="view">
-                <img src="https://mdbootstrap.com/img/Photos/Slides/img%2810%29.jpg" class="card-img-top" alt="photo">
-                <a href="#">
+                <img src="img/casio-1.png" class="card-img-top" alt="photo">
                 <div class="mask rgba-white-slight"></div>
                 </a>
             </div>
@@ -26,9 +25,8 @@
             <!--Card content-->
             <div class="card-body text-center">
                 <!--Title-->
-                <h4 class="card-title white-text">Nama Jam</h4>
+                <h4 class="card-title white-text">Casio Grey Men</h4>
                 <!--Text-->
-                <p class="card-text white-text">Deskripsi Jam.</p>
                 <a href="/detail" class="btn btn-info btn-rounded">Details</a>
             </div>
 
@@ -46,8 +44,7 @@
 
             <!--Card image-->
             <div class="view">
-                <img src="https://mdbootstrap.com/img/Photos/Slides/img%2811%29.jpg" class="card-img-top" alt="photo">
-                <a href="#">
+                <img src="img/casio-2.png" class="card-img-top" alt="photo">
                 <div class="mask rgba-white-slight"></div>
                 </a>
             </div>
@@ -55,10 +52,9 @@
             <!--Card content-->
             <div class="card-body text-center">
                 <!--Title-->
-                <h4 class="card-title white-text">Nama Jam</h4>
+                <h4 class="card-title white-text">Casio Navy Men</h4>
                 <!--Text-->
-                <p class="card-text white-text">Deskripsi Jam.</p>
-                <a href="#" class="btn btn-info btn-rounded">Details</a>
+                <a href="/detail" class="btn btn-info btn-rounded">Details</a>
             </div>
 
             </div>
@@ -75,8 +71,7 @@
 
             <!--Card image-->
             <div class="view">
-                <img src="https://mdbootstrap.com/img/Photos/Slides/img%2812%29.jpg" class="card-img-top" alt="photo">
-                <a href="#">
+                <img src="img/casio-3.png" class="card-img-top" alt="photo">
                 <div class="mask rgba-white-slight"></div>
                 </a>
             </div>
@@ -84,10 +79,9 @@
             <!--Card content-->
             <div class="card-body text-center">
                 <!--Title-->
-                <h4 class="card-title white-text">Nama Jam</h4>
+                <h4 class="card-title white-text">Casio Black Men</h4>
                 <!--Text-->
-                <p class="card-text white-text">Deskripsi Jam.</p>
-                <a href="#" class="btn btn-info btn-rounded">Details</a>
+                <a href="/detail" class="btn btn-info btn-rounded">Details</a>
             </div>
 
             </div>
@@ -110,8 +104,7 @@
 
                 <!--Card image-->
                 <div class="view">
-                    <img src="https://mdbootstrap.com/img/Photos/Slides/img%2810%29.jpg" class="card-img-top" alt="photo">
-                    <a href="#">
+                    <img src="img/casio-4.png" class="card-img-top" alt="photo">
                     <div class="mask rgba-white-slight"></div>
                     </a>
                 </div>
@@ -119,10 +112,9 @@
                 <!--Card content-->
                 <div class="card-body text-center">
                     <!--Title-->
-                    <h4 class="card-title white-text">Nama Jam</h4>
+                    <h4 class="card-title white-text">Casio Pink Women</h4>
                     <!--Text-->
-                    <p class="card-text white-text">Deskripsi Jam.</p>
-                    <a href="#" class="btn btn-info btn-rounded">Details</a>
+                    <a href="/detail" class="btn btn-info btn-rounded">Details</a>
                 </div>
 
                 </div>
@@ -139,8 +131,7 @@
 
                 <!--Card image-->
                 <div class="view">
-                    <img src="https://mdbootstrap.com/img/Photos/Slides/img%2811%29.jpg" class="card-img-top" alt="photo">
-                    <a href="#">
+                    <img src="img/casio-5.png" class="card-img-top" alt="photo">
                     <div class="mask rgba-white-slight"></div>
                     </a>
                 </div>
@@ -148,10 +139,9 @@
                 <!--Card content-->
                 <div class="card-body text-center">
                     <!--Title-->
-                    <h4 class="card-title white-text">Nama Jam</h4>
+                    <h4 class="card-title white-text">Casio Silver Women</h4>
                     <!--Text-->
-                    <p class="card-text white-text">Deskripsi Jam.</p>
-                    <a href="#" class="btn btn-info btn-rounded">Details</a>
+                    <a href="/detail" class="btn btn-info btn-rounded">Details</a>
                 </div>
 
                 </div>
@@ -168,18 +158,16 @@
 
                 <!--Card image-->
                 <div class="view">
-                    <img src="https://mdbootstrap.com/img/Photos/Slides/img%2812%29.jpg" class="card-img-top" alt="photo">
-                    <a href="img/casio.png">
+                    <img src="img/casio-6.png" class="card-img-top" alt="photo">
                     <div class="mask rgba-white-slight"></div>
                     </a>
                 </div>
                 <!--Card content-->
                 <div class="card-body text-center">
                     <!--Title-->
-                    <h4 class="card-title white-text">Nama Jam</h4>
+                    <h4 class="card-title white-text">Casio Blue Women</h4>
                     <!--Text-->
-                    <p class="card-text white-text">Deskripsi Jam.</p>
-                    <a href="#" class="btn btn-info btn-rounded">Details</a>
+                    <a href="/detail" class="btn btn-info btn-rounded">Details</a>
                 </div>
 
                 </div>
