@@ -4,7 +4,7 @@
 <section class="section-products" style="margin-top: 50px" >
     <div class="container">
 
-        <h2 class="row justify-content-center text-center mb-4">Chanel Products</h2>
+        <h2 class="row justify-content-center text-center mb-4">{{ $title }}</h2>
 
         <!-- Grid row -->
         <div class="row pb-3">
@@ -17,8 +17,7 @@
 
             <!--Card image-->
             <div class="view">
-                <img src="https://mdbootstrap.com/img/Photos/Slides/img%2810%29.jpg" class="card-img-top" alt="photo">
-                <a href="#">
+                <img src="img/chanel-1.png" class="card-img-top" alt="photo">
                 <div class="mask rgba-white-slight"></div>
                 </a>
             </div>
@@ -26,9 +25,8 @@
             <!--Card content-->
             <div class="card-body text-center">
                 <!--Title-->
-                <h4 class="card-title white-text">Nama Jam</h4>
+                <h4 class="card-title white-text">Chanel Black Men</h4>
                 <!--Text-->
-                <p class="card-text white-text">Deskripsi Jam.</p>
                 <a href="/detail" class="btn btn-info btn-rounded">Details</a>
             </div>
 
@@ -46,8 +44,7 @@
 
             <!--Card image-->
             <div class="view">
-                <img src="https://mdbootstrap.com/img/Photos/Slides/img%2811%29.jpg" class="card-img-top" alt="photo">
-                <a href="#">
+                <img src="img/chanel-2.png" class="card-img-top" alt="photo">
                 <div class="mask rgba-white-slight"></div>
                 </a>
             </div>
@@ -55,10 +52,9 @@
             <!--Card content-->
             <div class="card-body text-center">
                 <!--Title-->
-                <h4 class="card-title white-text">Nama Jam</h4>
+                <h4 class="card-title white-text">Chanel White Men</h4>
                 <!--Text-->
-                <p class="card-text white-text">Deskripsi Jam.</p>
-                <a href="#" class="btn btn-info btn-rounded">Details</a>
+                <a href="/detail" class="btn btn-info btn-rounded">Details</a>
             </div>
 
             </div>
@@ -75,8 +71,7 @@
 
             <!--Card image-->
             <div class="view">
-                <img src="https://mdbootstrap.com/img/Photos/Slides/img%2812%29.jpg" class="card-img-top" alt="photo">
-                <a href="#">
+                <img src="img/chanel-3.png" class="card-img-top" alt="photo">
                 <div class="mask rgba-white-slight"></div>
                 </a>
             </div>
@@ -84,10 +79,9 @@
             <!--Card content-->
             <div class="card-body text-center">
                 <!--Title-->
-                <h4 class="card-title white-text">Nama Jam</h4>
+                <h4 class="card-title white-text">Chanel Black Gold Men</h4>
                 <!--Text-->
-                <p class="card-text white-text">Deskripsi Jam.</p>
-                <a href="#" class="btn btn-info btn-rounded">Details</a>
+                <a href="/detail" class="btn btn-info btn-rounded">Details</a>
             </div>
 
             </div>
@@ -110,8 +104,7 @@
 
                 <!--Card image-->
                 <div class="view">
-                    <img src="https://mdbootstrap.com/img/Photos/Slides/img%2810%29.jpg" class="card-img-top" alt="photo">
-                    <a href="#">
+                    <img src="img/chanel-4.png" class="card-img-top" alt="photo">
                     <div class="mask rgba-white-slight"></div>
                     </a>
                 </div>
@@ -119,10 +112,9 @@
                 <!--Card content-->
                 <div class="card-body text-center">
                     <!--Title-->
-                    <h4 class="card-title white-text">Nama Jam</h4>
+                    <h4 class="card-title white-text">Chanel Black Gold Women</h4>
                     <!--Text-->
-                    <p class="card-text white-text">Deskripsi Jam.</p>
-                    <a href="#" class="btn btn-info btn-rounded">Details</a>
+                    <a href="/detail" class="btn btn-info btn-rounded">Details</a>
                 </div>
 
                 </div>
@@ -139,8 +131,7 @@
 
                 <!--Card image-->
                 <div class="view">
-                    <img src="https://mdbootstrap.com/img/Photos/Slides/img%2811%29.jpg" class="card-img-top" alt="photo">
-                    <a href="#">
+                    <img src="img/chanel-5.png" class="card-img-top" alt="photo">
                     <div class="mask rgba-white-slight"></div>
                     </a>
                 </div>
@@ -148,10 +139,9 @@
                 <!--Card content-->
                 <div class="card-body text-center">
                     <!--Title-->
-                    <h4 class="card-title white-text">Nama Jam</h4>
+                    <h4 class="card-title white-text">Chanel Black Gold White Women</h4>
                     <!--Text-->
-                    <p class="card-text white-text">Deskripsi Jam.</p>
-                    <a href="#" class="btn btn-info btn-rounded">Details</a>
+                    <a href="/detail" class="btn btn-info btn-rounded">Details</a>
                 </div>
 
                 </div>
@@ -168,7 +158,7 @@
 
                 <!--Card image-->
                 <div class="view">
-                    <img src="https://mdbootstrap.com/img/Photos/Slides/img%2812%29.jpg" class="card-img-top" alt="photo">
+                    <img src="img/chanel-6.png" class="card-img-top" alt="photo">
                     <a href="img/casio.png">
                     <div class="mask rgba-white-slight"></div>
                     </a>
@@ -176,10 +166,9 @@
                 <!--Card content-->
                 <div class="card-body text-center">
                     <!--Title-->
-                    <h4 class="card-title white-text">Nama Jam</h4>
+                    <h4 class="card-title white-text">Chanel White Black Women</h4>
                     <!--Text-->
-                    <p class="card-text white-text">Deskripsi Jam.</p>
-                    <a href="#" class="btn btn-info btn-rounded">Details</a>
+                    <a href="/detail" class="btn btn-info btn-rounded">Details</a>
                 </div>
 
                 </div>
