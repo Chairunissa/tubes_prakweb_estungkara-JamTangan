@@ -17,8 +17,8 @@
 
                     <!--Card image-->
                     <div class="view">
-                        <img src="https://mdbootstrap.com/img/Photos/Slides/img%2810%29.jpg" class="card-img-top" alt="photo">
-                        <a href="#">
+                        <img src="img/casio-4.png" class="card-img-top" alt="photo">
+                        <a href="/detail">
                             <div class="mask rgba-white-slight"></div>
                         </a>
                     </div>
@@ -26,9 +26,7 @@
                     <!--Card content-->
                     <div class="card-body text-center">
                         <!--Title-->
-                        <h4 class="card-title white-text">Nama Jam</h4>
-                        <!--Text-->
-                        <p class="card-text white-text">Deskripsi Jam.</p>
+                        <h4 class="card-title white-text">Casio Pink Women</h4>
                         <a href="/detail" class="btn btn-info btn-rounded">Details</a>
                     </div>
 
@@ -46,8 +44,8 @@
 
                     <!--Card image-->
                     <div class="view">
-                        <img src="https://mdbootstrap.com/img/Photos/Slides/img%2811%29.jpg" class="card-img-top" alt="photo">
-                        <a href="#">
+                        <img src="img/casio-5.png" class="card-img-top" alt="photo">
+                        <a href="/detail">
                             <div class="mask rgba-white-slight"></div>
                         </a>
                     </div>
@@ -55,10 +53,8 @@
                     <!--Card content-->
                     <div class="card-body text-center">
                         <!--Title-->
-                        <h4 class="card-title white-text">Nama Jam</h4>
-                        <!--Text-->
-                        <p class="card-text white-text">Deskripsi Jam.</p>
-                        <a href="#" class="btn btn-info btn-rounded">Details</a>
+                        <h4 class="card-title white-text">Casio Silver Momen</h4>
+                        <a href="/detail" class="btn btn-info btn-rounded">Details</a>
                     </div>
 
                 </div>
@@ -75,8 +71,8 @@
 
                     <!--Card image-->
                     <div class="view">
-                        <img src="https://mdbootstrap.com/img/Photos/Slides/img%2812%29.jpg" class="card-img-top" alt="photo">
-                        <a href="#">
+                        <img src="img/casio-6.png" class="card-img-top" alt="photo">
+                        <a href="/detail">
                             <div class="mask rgba-white-slight"></div>
                         </a>
                     </div>
@@ -84,10 +80,9 @@
                     <!--Card content-->
                     <div class="card-body text-center">
                         <!--Title-->
-                        <h4 class="card-title white-text">Nama Jam</h4>
-                        <!--Text-->
-                        <p class="card-text white-text">Deskripsi Jam.</p>
-                        <a href="#" class="btn btn-info btn-rounded">Details</a>
+                        <h4 class="card-title white-text">Casio Blue Women</h4>
+
+                        <a href="/detail" class="btn btn-info btn-rounded">Details</a>
                     </div>
 
                 </div>
@@ -97,7 +92,6 @@
             <!-- Grid column -->
 
         </div>
-
 
         <!-- Grid row -->
         <div class="row pt-4">
@@ -110,8 +104,8 @@
 
                     <!--Card image-->
                     <div class="view">
-                        <img src="https://mdbootstrap.com/img/Photos/Slides/img%2810%29.jpg" class="card-img-top" alt="photo">
-                        <a href="#">
+                        <img src="img/rolex-4.png" class="card-img-top" alt="photo">
+                        <a href="/detail">
                             <div class="mask rgba-white-slight"></div>
                         </a>
                     </div>
@@ -119,10 +113,9 @@
                     <!--Card content-->
                     <div class="card-body text-center">
                         <!--Title-->
-                        <h4 class="card-title white-text">Nama Jam</h4>
-                        <!--Text-->
-                        <p class="card-text white-text">Deskripsi Jam.</p>
-                        <a href="#" class="btn btn-info btn-rounded">Details</a>
+                        <h4 class="card-title white-text">Rolex Gold Women</h4>
+
+                        <a href="/detail" class="btn btn-info btn-rounded">Details</a>
                     </div>
 
                 </div>
@@ -139,8 +132,8 @@
 
                     <!--Card image-->
                     <div class="view">
-                        <img src="https://mdbootstrap.com/img/Photos/Slides/img%2811%29.jpg" class="card-img-top" alt="photo">
-                        <a href="#">
+                        <img src="img/rolex-5.png" class="card-img-top" alt="photo">
+                        <a href="/detail">
                             <div class="mask rgba-white-slight"></div>
                         </a>
                     </div>
@@ -148,10 +141,9 @@
                     <!--Card content-->
                     <div class="card-body text-center">
                         <!--Title-->
-                        <h4 class="card-title white-text">Nama Jam</h4>
-                        <!--Text-->
-                        <p class="card-text white-text">Deskripsi Jam.</p>
-                        <a href="#" class="btn btn-info btn-rounded">Details</a>
+                        <h4 class="card-title white-text">Rolex Silver Women</h4>
+
+                        <a href="/detail" class="btn btn-info btn-rounded">Details</a>
                     </div>
 
                 </div>
@@ -168,7 +160,7 @@
 
                     <!--Card image-->
                     <div class="view">
-                        <img src="https://mdbootstrap.com/img/Photos/Slides/img%2812%29.jpg" class="card-img-top" alt="photo">
+                        <img src="img/rolex-6.png" class="card-img-top" alt="photo">
                         <a href="img/casio.png">
                             <div class="mask rgba-white-slight"></div>
                         </a>
@@ -176,23 +168,93 @@
                     <!--Card content-->
                     <div class="card-body text-center">
                         <!--Title-->
-                        <h4 class="card-title white-text">Nama Jam</h4>
-                        <!--Text-->
-                        <p class="card-text white-text">Deskripsi Jam.</p>
-                        <a href="#" class="btn btn-info btn-rounded">Details</a>
+                        <h4 class="card-title white-text">Rolex Pink Women</h4>
+
+                        <a href="/detail" class="btn btn-info btn-rounded">Details</a>
                     </div>
 
                 </div>
                 <!--/.Card-->
             </div>
-            <!-- Grid column -->
-            <a class="back pt-4" href="/category">
-                <button type="button" class="btn btn-outline-light" style="margin-top:15px; margin-bottom: 20px;">Back</button>
-            </a>
 
         </div>
-        <!-- Grid row -->
 
+        <div class="row pt-4">
+            <div class="column-1 px-2">
+
+                <!--Card-->
+                <div class="card warning-color-dark">
+
+                    <!--Card image-->
+                    <div class="view">
+                        <img src="img/chanel-4.png" class="card-img-top" alt="photo">
+                        <a href="img/casio.png">
+                            <div class="mask rgba-white-slight"></div>
+                        </a>
+                    </div>
+                    <!--Card content-->
+                    <div class="card-body text-center">
+                        <!--Title-->
+                        <h4 class="card-title white-text">Chanel Black Gold Women</h4>
+
+                        <a href="/detail" class="btn btn-info btn-rounded">Details</a>
+                    </div>
+
+                </div>
+                <!--/.Card-->
+            </div>
+            <div class="column-1 px-2">
+
+                <!--Card-->
+                <div class="card warning-color-dark">
+
+                    <!--Card image-->
+                    <div class="view">
+                        <img src="img/chanel-5.png" class="card-img-top" alt="photo">
+                        <a href="img/casio.png">
+                            <div class="mask rgba-white-slight"></div>
+                        </a>
+                    </div>
+                    <!--Card content-->
+                    <div class="card-body text-center">
+                        <!--Title-->
+                        <h4 class="card-title white-text">Chanel Black Gold White Women</h4>
+
+                        <a href="/detail" class="btn btn-info btn-rounded">Details</a>
+                    </div>
+
+                </div>
+                <!--/.Card-->
+            </div>
+            <div class="column-1 px-2">
+
+                <!--Card-->
+                <div class="card warning-color-dark">
+
+                    <!--Card image-->
+                    <div class="view">
+                        <img src="img/chanel-6.png" class="card-img-top" alt="photo">
+                        <a href="img/casio.png">
+                            <div class="mask rgba-white-slight"></div>
+                        </a>
+                    </div>
+                    <!--Card content-->
+                    <div class="card-body text-center">
+                        <!--Title-->
+                        <h4 class="card-title white-text">Chanel White Black Women</h4>
+
+                        <a href="/detail" class="btn btn-info btn-rounded">Details</a>
+                    </div>
+
+                </div>
+                <!--/.Card-->
+            </div>
+        </div>
+        <!-- Grid row -->
+        <!-- Grid column -->
+        <a class="back pt-4" href="/category">
+            <button type="button" class="btn btn-outline-light" style="margin-top:15px; margin-bottom: 20px;">Back</button>
+        </a>
 
     </div>
 </section>
