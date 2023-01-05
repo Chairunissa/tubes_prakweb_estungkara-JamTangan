@@ -81,9 +81,8 @@
         <h5>Chairunissa Putri K</h5>
         <h5>203040048</h5>
         <div class="icons">
-          <a href="#"><i class="ri-twitter-fill"></i></a>
-          <a href="#"><i class="ri-facebook-box-fill"></i></a>
-          <a href="#"><i class="ri-instagram-fill"></i></a>
+          <a href="https://twitter.com/abchrnisa"><i class="ri-twitter-fill"></i></a>
+          <a href="https://www.instagram.com/chnissap/"><i class="ri-instagram-fill"></i></a>
         </div>
       </div>
 
@@ -93,9 +92,8 @@
         <h5>Leni Setiarini</h5>
         <h5>203040047</h5>
         <div class="icons">
-          <a href="#"><i class="ri-twitter-fill"></i></a>
-          <a href="#"><i class="ri-facebook-box-fill"></i></a>
-          <a href="#"><i class="ri-instagram-fill"></i></a>
+          <a href="https://twitter.com/leni_setiarini"><i class="ri-twitter-fill"></i></a>
+          <a href="https://www.instagram.com/lenisetiarinii_/"><i class="ri-instagram-fill"></i></a>
         </div>
       </div>
 
@@ -106,7 +104,6 @@
         <h5>203040051</h5>
         <div class="icons">
           <a href="https://twitter.com/rafiramadhannnn"><i class="ri-twitter-fill"></i></a>
-          <a href="#"><i class="ri-facebook-box-fill"></i></a>
           <a href="https://www.instagram.com/rafi.ramadhann/"><i class="ri-instagram-fill"></i></a>
         </div>
       </div>
@@ -118,8 +115,7 @@
         <h5>203040035</h5>
         <div class="icons">
           <a href="#"><i class="ri-twitter-fill"></i></a>
-          <a href="#"><i class="ri-facebook-box-fill"></i></a>
-          <a href="#"><i class="ri-instagram-fill"></i></a>
+          <a href="https://www.instagram.com/mnizarrr_/"><i class="ri-instagram-fill"></i></a>
         </div>
       </div>
 

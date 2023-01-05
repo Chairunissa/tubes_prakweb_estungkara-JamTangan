@@ -4,7 +4,7 @@
 <section class="section-products" style="margin-top: 50px">
     <div class="container">
 
-        <h2 class="row justify-content-center text-center mb-4">Men</h2>
+        <h2 class="row justify-content-center text-center mb-4">Men's Products</h2>
 
         <!-- Grid row -->
         <div class="row pb-3">
@@ -18,7 +18,7 @@
                     <!--Card image-->
                     <div class="view">
                         <img src="img/casio-1.png" class="card-img-top" alt="photo">
-                        <a href="/detail">
+                        <a href="https://www.casio.com/id/watches/new/">
                             <div class="mask rgba-white-slight"></div>
                         </a>
                     </div>
@@ -27,7 +27,7 @@
                     <div class="card-body text-center">
                         <!--Title-->
                         <h4 class="card-title white-text">Casio Grey Men</h4>
-                        <a href="/detail" class="btn btn-info btn-rounded">Details</a>
+                        <a href="https://www.casio.com/id/watches/new/" class="btn btn-info btn-rounded">View Shop</a>
                     </div>
 
                 </div>
@@ -45,7 +45,7 @@
                     <!--Card image-->
                     <div class="view">
                         <img src="img/casio-2.png" class="card-img-top" alt="photo">
-                        <a href="/detail">
+                        <a href="https://www.casio.com/id/watches/new/">
                             <div class="mask rgba-white-slight"></div>
                         </a>
                     </div>
@@ -53,8 +53,8 @@
                     <!--Card content-->
                     <div class="card-body text-center">
                         <!--Title-->
-                        <h4 class="card-title white-text">Casio Navy Grey</h4>
-                        <a href="/detail" class="btn btn-info btn-rounded">Details</a>
+                        <h4 class="card-title white-text">Casio Navy Men</h4>
+                        <a href="https://www.casio.com/id/watches/new/" class="btn btn-info btn-rounded">View Shop</a>
                     </div>
 
                 </div>
@@ -72,7 +72,7 @@
                     <!--Card image-->
                     <div class="view">
                         <img src="img/casio-3.png" class="card-img-top" alt="photo">
-                        <a href="/detail">
+                        <a href="https://www.casio.com/id/watches/new/">
                             <div class="mask rgba-white-slight"></div>
                         </a>
                     </div>
@@ -81,7 +81,7 @@
                     <div class="card-body text-center">
                         <!--Title-->
                         <h4 class="card-title white-text">Casio Black Men</h4>
-                        <a href="/detail" class="btn btn-info btn-rounded">Details</a>
+                        <a href="https://www.casio.com/id/watches/new/" class="btn btn-info btn-rounded">View Shop</a>
                     </div>
 
                 </div>
@@ -104,7 +104,7 @@
                     <!--Card image-->
                     <div class="view">
                         <img src="img/rolex-1.png" class="card-img-top" alt="photo">
-                        <a href="/detail">
+                        <a href="https://www.casio.com/id/watches/new/">
                             <div class="mask rgba-white-slight"></div>
                         </a>
                     </div>
@@ -113,7 +113,7 @@
                     <div class="card-body text-center">
                         <!--Title-->
                         <h4 class="card-title white-text">Rolex Black Men</h4>
-                        <a href="/detail" class="btn btn-info btn-rounded">Details</a>
+                        <a href="https://www.casio.com/id/watches/new/" class="btn btn-info btn-rounded">View Shop</a>
                     </div>
 
                 </div>
@@ -131,7 +131,7 @@
                     <!--Card image-->
                     <div class="view">
                         <img src="img/rolex-2.png" class="card-img-top" alt="photo">
-                        <a href="/detail">
+                        <a href="https://www.casio.com/id/watches/new/">
                             <div class="mask rgba-white-slight"></div>
                         </a>
                     </div>
@@ -140,7 +140,7 @@
                     <div class="card-body text-center">
                         <!--Title-->
                         <h4 class="card-title white-text">Rolex Gold Men</h4>
-                        <a href="/detail" class="btn btn-info btn-rounded">Details</a>
+                        <a href="https://www.casio.com/id/watches/new/" class="btn btn-info btn-rounded">View Shop</a>
                     </div>
 
                 </div>
@@ -166,7 +166,7 @@
                     <div class="card-body text-center">
                         <!--Title-->
                         <h4 class="card-title white-text">Rolex Silver Men</h4>
-                        <a href="/detail" class="btn btn-info btn-rounded">Details</a>
+                        <a href="https://www.casio.com/id/watches/new/" class="btn btn-info btn-rounded">View Shop</a>
                     </div>
 
                 </div>
@@ -192,7 +192,7 @@
                     <div class="card-body text-center">
                         <!--Title-->
                         <h4 class="card-title white-text">Chanel Black Men</h4>
-                        <a href="/detail" class="btn btn-info btn-rounded">Details</a>
+                        <a href="https://www.casio.com/id/watches/new/" class="btn btn-info btn-rounded">View Shop</a>
                     </div>
 
                 </div>
@@ -215,7 +215,7 @@
                         <!--Title-->
                         <h4 class="card-title white-text">Chanel White Men</h4>
 
-                        <a href="/detail" class="btn btn-info btn-rounded">Details</a>
+                        <a href="https://www.casio.com/id/watches/new/" class="btn btn-info btn-rounded">View Shop</a>
                     </div>
 
                 </div>
@@ -237,7 +237,7 @@
                     <div class="card-body text-center">
                         <!--Title-->
                         <h4 class="card-title white-text">Chanel Black Gold Men</h4>
-                        <a href="/detail" class="btn btn-info btn-rounded">Details</a>
+                        <a href="https://www.casio.com/id/watches/new/" class="btn btn-info btn-rounded">View Shop</a>
                     </div>
 
                 </div>

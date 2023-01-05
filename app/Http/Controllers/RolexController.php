@@ -22,7 +22,7 @@ class RolexController extends Controller
             $title = ' in ' . $author->name;
         }
         return view('rolex', [
-            'title' => 'All Post' . $title,
+            'title' => 'Rolex Products' . $title,
             'active' => 'post',
             // 'posts' => Post::all(),
             'posts' => produk::latest()->filter(request(['search', 'category', 'author']))->paginate(7)->withQueryString()

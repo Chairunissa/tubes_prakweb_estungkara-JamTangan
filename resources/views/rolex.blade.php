@@ -26,7 +26,7 @@
                     <div class="card-body text-center">
                         <!--Title-->
                         <h4 class="card-title white-text">Rolex Black Men</h4>
-                        <a href="/detail" class="btn btn-info btn-rounded">Details</a>
+                        <a href="https://www.rolex.com/watches.html" class="btn btn-info btn-rounded">View shop</a>
                     </div>
 
                 </div>
@@ -53,7 +53,7 @@
                         <!--Title-->
                         <h4 class="card-title white-text">Rolex Gold Men</h4>
                         <!--Text-->
-                        <a href="/detail" class="btn btn-info btn-rounded">Details</a>
+                        <a href="https://www.rolex.com/watches.html" class="btn btn-info btn-rounded">View shop</a>
                     </div>
 
                 </div>
@@ -81,7 +81,7 @@
                         <!--Title-->
                         <h4 class="card-title white-text">Rolex Silver Men</h4>
                         <!--Text-->
-                        <a href="/detail" class="btn btn-info btn-rounded">Details</a>
+                        <a href="https://www.rolex.com/watches.html" class="btn btn-info btn-rounded">View shop</a>
                     </div>
 
                 </div>
@@ -114,7 +114,7 @@
                         <!--Title-->
                         <h4 class="card-title white-text">Rolex Gold Women</h4>
                         <!--Text-->
-                        <a href="/detail" class="btn btn-info btn-rounded">Details</a>
+                        <a href="https://www.rolex.com/watches.html" class="btn btn-info btn-rounded">View shop</a>
                     </div>
 
                 </div>
@@ -141,7 +141,7 @@
                         <!--Title-->
                         <h4 class="card-title white-text">Rolex Silver Women</h4>
                         <!--Text-->
-                        <a href="/detail" class="btn btn-info btn-rounded">Details</a>
+                        <a href="/detail" class="btn btn-info btn-rounded">View shop</a>
                     </div>
 
                 </div>
@@ -167,7 +167,7 @@
                         <!--Title-->
                         <h4 class="card-title white-text">Rolex Pink Women</h4>
                         <!--Text-->
-                        <a href="/detail" class="btn btn-info btn-rounded">Details</a>
+                        <a href="https://www.rolex.com/watches.html" class="btn btn-info btn-rounded">View shop</a>
                     </div>
 
                 </div>

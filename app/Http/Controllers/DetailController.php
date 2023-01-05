@@ -25,10 +25,10 @@ class DetailController extends Controller
         }
 
         return view('produk', [
-            "title" => "New Product" . $title,
+            "title" => "All Post" . $title,
             "active" => 'produk',
             "posts" => produk::latest()->filter(request(['search', 'category', 'author']))
-                ->paginate(5)->withQueryString()
+                ->paginate(0)->withQueryString()
         ]);
     }
     public function show(produk $post)

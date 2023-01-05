@@ -31,7 +31,7 @@
     </a>
 
 
-    <div class="container">
+    {{-- <div class="container">
         <div class="row justify-content-center mb-5">
             <div class="col-md-8">
                 <h2 class="mb-3 mt-3">{{ $produk->title }}</h2>
@@ -53,7 +53,7 @@
 
             </div>
         </div>
-    </div>
+    </div> --}}
 
     @endsection
 </body>

@@ -22,7 +22,7 @@ class CasioController extends Controller
             $title = ' in ' . $author->name;
         }
         return view('casio', [
-            'title' => 'All Post' . $title,
+            'title' => 'Casio Products' . $title,
             'active' => 'post',
             // 'posts' => Post::all(),
             'posts' => produk::latest()->filter(request(['search', 'category', 'author']))->paginate(7)->withQueryString()
