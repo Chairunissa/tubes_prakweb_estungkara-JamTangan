@@ -45,12 +45,12 @@
                     @endif
                     <div class="card-body">
                         <h5 class="card-title"><a class="text-decoration-none text-dark" href="/storage/{{$posts[0]->image}}">{{$post->title}}</a></h5>
-                        {{-- <p><small class="text-muted">
+                        <p><small class="text-muted">
                         By. <a class="text-decoration-none" href="/posts?author={{$post->author->username}}">{{$post->author->name}}</a>
                         {{$posts[0]->created_at->diffForHumans()}}
-                        </small></p> --}}
+                        </small></p>
                         <p class="card-text">{{$post->excerpt}}</p>
-                        <a href="/detail/{{$posts[0]->image}}" class="btn btn-primary">Detail</a>
+                        <a href="https://www.casio.com/id/watches/new/" class="btn btn-primary">View shop</a>
                     </div>
                 </div>
             </div>

@@ -27,7 +27,7 @@
                         <!--Title-->
                         <h4 class="card-title white-text">Casio Grey Men</h4>
                         <!--Text-->
-                        <a href="/detail" class="btn btn-info btn-rounded">Details</a>
+                        <a href="https://www.casio.com/id/watches/new/" class="btn btn-info btn-rounded">View shop</a>
                     </div>
 
                 </div>
@@ -54,7 +54,7 @@
                         <!--Title-->
                         <h4 class="card-title white-text">Casio Navy Men</h4>
                         <!--Text-->
-                        <a href="/detail" class="btn btn-info btn-rounded">Details</a>
+                        <a href="https://www.casio.com/id/watches/new/" class="btn btn-info btn-rounded">View shop</a>
                     </div>
 
                 </div>
@@ -81,7 +81,7 @@
                         <!--Title-->
                         <h4 class="card-title white-text">Casio Black Men</h4>
                         <!--Text-->
-                        <a href="/detail" class="btn btn-info btn-rounded">Details</a>
+                        <a href="https://www.casio.com/id/watches/new/" class="btn btn-info btn-rounded">View shop</a>
                     </div>
 
                 </div>
@@ -114,7 +114,7 @@
                         <!--Title-->
                         <h4 class="card-title white-text">Casio Pink Women</h4>
                         <!--Text-->
-                        <a href="/detail" class="btn btn-info btn-rounded">Details</a>
+                        <a href="https://www.casio.com/id/watches/new/" class="btn btn-info btn-rounded">View shop</a>
                     </div>
 
                 </div>
@@ -141,7 +141,7 @@
                         <!--Title-->
                         <h4 class="card-title white-text">Casio Silver Women</h4>
                         <!--Text-->
-                        <a href="/detail" class="btn btn-info btn-rounded">Details</a>
+                        <a href="https://www.casio.com/id/watches/new/" class="btn btn-info btn-rounded">View shop</a>
                     </div>
 
                 </div>
@@ -167,7 +167,7 @@
                         <!--Title-->
                         <h4 class="card-title white-text">Casio Blue Women</h4>
                         <!--Text-->
-                        <a href="/detail" class="btn btn-info btn-rounded">Details</a>
+                        <a href="https://www.casio.com/id/watches/new/" class="btn btn-info btn-rounded">View shop</a>
                     </div>
 
                 </div>

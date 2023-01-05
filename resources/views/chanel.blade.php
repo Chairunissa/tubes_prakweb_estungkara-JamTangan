@@ -27,7 +27,7 @@
                         <!--Title-->
                         <h4 class="card-title white-text">Chanel Black Men</h4>
                         <!--Text-->
-                        <a href="/detail" class="btn btn-info btn-rounded">Details</a>
+                        <a href="https://www.chanel.com/us/watches/collection/c/4x2/" class="btn btn-info btn-rounded">View shop</a>
                     </div>
 
                 </div>
@@ -54,7 +54,7 @@
                         <!--Title-->
                         <h4 class="card-title white-text">Chanel White Men</h4>
                         <!--Text-->
-                        <a href="/detail" class="btn btn-info btn-rounded">Details</a>
+                        <a href="https://www.chanel.com/us/watches/collection/c/4x2/" class="btn btn-info btn-rounded">View shop</a>
                     </div>
 
                 </div>
@@ -81,7 +81,7 @@
                         <!--Title-->
                         <h4 class="card-title white-text">Chanel Black Gold Men</h4>
                         <!--Text-->
-                        <a href="/detail" class="btn btn-info btn-rounded">Details</a>
+                        <a href="https://www.chanel.com/us/watches/collection/c/4x2/" class="btn btn-info btn-rounded">View shop</a>
                     </div>
 
                 </div>
@@ -114,7 +114,7 @@
                         <!--Title-->
                         <h4 class="card-title white-text">Chanel Black Gold Women</h4>
                         <!--Text-->
-                        <a href="/detail" class="btn btn-info btn-rounded">Details</a>
+                        <a href="https://www.chanel.com/us/watches/collection/c/4x2/" class="btn btn-info btn-rounded">View shop</a>
                     </div>
 
                 </div>
@@ -141,7 +141,7 @@
                         <!--Title-->
                         <h4 class="card-title white-text">Chanel Black Gold White Women</h4>
                         <!--Text-->
-                        <a href="/detail" class="btn btn-info btn-rounded">Details</a>
+                        <a href="https://www.chanel.com/us/watches/collection/c/4x2/" class="btn btn-info btn-rounded">View shop</a>
                     </div>
 
                 </div>
@@ -168,7 +168,7 @@
                         <!--Title-->
                         <h4 class="card-title white-text">Chanel White Black Women</h4>
                         <!--Text-->
-                        <a href="/detail" class="btn btn-info btn-rounded">Details</a>
+                        <a href="https://www.chanel.com/us/watches/collection/c/4x2/" class="btn btn-info btn-rounded">View shop</a>
                     </div>
 
                 </div>

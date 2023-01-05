@@ -54,7 +54,7 @@
                         <span class="products__price">Black Silver</span>
 
                         <button class="button button--flex products__button">
-                            <i class="">View</i>
+                            <a href="https://www.casio.com/id/watches/new/" class="">Shop</a>
                         </button>
                     </div>
                 </article>
@@ -65,8 +65,8 @@
                         <h3 class="products__title">Rolex Milgauss</h3>
                         <span class="products__price">Black Green</span>
 
-                        <button class="button button--flex products__button">
-                            <i class="">View</i>
+                        <button class="button button--flex products__button" >
+                            <a href="https://www.casio.com/id/watches/new/" class="">Shop</a>
                         </button>
                     </div>
                 </article>
@@ -78,7 +78,7 @@
                         <span class="products__price">White</span>
 
                         <button class="button button--flex products__button">
-                            <i class="">View</i>
+                            <a href="https://www.casio.com/id/watches/new/" class="">Shop</a>
                         </button>
                     </div>
                 </article>
@@ -90,7 +90,7 @@
                         <span class="products__price">White</span>
 
                         <button class="button button--flex products__button">
-                            <i class="">View</i>
+                            <a href="https://www.casio.com/id/watches/new/" class="">Shop</a>
                         </button>
                     </div>
                 </article>
@@ -103,7 +103,7 @@
                         <span class="products__price">Rose Gold</span>
 
                         <button class="button button--flex products__button">
-                            <i class="">View</i>
+                            <a href="https://www.casio.com/id/watches/new/" class="">Shop</a>
                         </button>
                     </div>
                 </article>
@@ -115,7 +115,7 @@
                         <span class="products__price">Rose Gold</span>
 
                         <button class="button button--flex products__button">
-                            <i class="">View</i>
+                            <a href="https://www.casio.com/id/watches/new/" class="">Shop</a>
                         </button>
                     </div>
                 </article>
